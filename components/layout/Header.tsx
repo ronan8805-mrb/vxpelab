@@ -7,11 +7,13 @@ export function Header() {
             <div className="bg-neon-purple text-white text-center py-2 text-sm font-bold tracking-wide uppercase">
                 Open till 10pm everyday!
             </div>
-            <div className="container mx-auto px-4 h-20 flex items-center justify-between">
+            <div className="container mx-auto px-4 h-32 flex items-center justify-between">
                 <div className="flex items-center gap-4">
                     <button className="lg:hidden p-2 text-white"><Menu /></button>
-                    <Link href="/" className="text-3xl font-black tracking-tighter text-white">
-                        VAPE<span className="text-neon-pink">LAB</span>
+                    <Link href="/" className="flex items-center gap-3">
+                        <div className="relative size-28 rounded-full overflow-hidden border-2 border-neon-pink shadow-[0_0_20px_rgba(255,0,255,0.6)] hover:scale-105 transition-transform duration-300 bg-black">
+                            <img src="/assets/logo.png" alt="VAPE LAB Logo" className="object-cover w-full h-full" />
+                        </div>
                     </Link>
                 </div>
 

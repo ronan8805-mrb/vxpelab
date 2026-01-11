@@ -16,10 +16,10 @@ export default function Home() {
         {/* Background Image - using largest uploaded image as fallback/bg */}
         <div className="absolute inset-0">
           <Image
-            src="/assets/uploaded_image_4_1768141023131.png"
-            alt="Vape Lab Hero"
+            src="/assets/hero-bg-new.jpg"
+            alt="Vape Lab Mad Scientists Lab"
             fill
-            className="object-cover opacity-40 grayscale hover:grayscale-0 transition-all duration-1000 scale-105"
+            className="object-cover object-top opacity-80 hover:scale-105 transition-all duration-[3000ms]"
             priority
           />
           <div className="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/80 to-transparent" />
@@ -161,11 +161,12 @@ export default function Home() {
           <div className="md:w-1/2 relative h-[500px] w-full flex items-center justify-center">
             <div className="absolute inset-0 bg-neon-green/20 blur-[100px] rounded-full transform scale-75 animate-pulse" />
             <Image
-              src="/assets/uploaded_image_0_1768141023131.png"
-              alt="Hayati Pro Max"
-              width={500}
-              height={500}
-              className="object-contain relative z-10 drop-shadow-2xl hover:scale-105 transition-transform duration-500"
+              src="/assets/hayati-product-hero.png"
+              alt="Hayati Pro Max 6000"
+              fill
+              quality={100}
+              unoptimized
+              className="object-contain rounded-xl relative z-10 drop-shadow-2xl hover:scale-105 transition-transform duration-500"
             />
           </div>
         </div>
